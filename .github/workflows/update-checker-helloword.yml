@@ -9,7 +9,7 @@
 # Description: Source code update checker
 #
 
-name: Update Checker
+name: Helloword Checker
 
 env:
   REPO_URL: https://github.com/fw876/helloworld
@@ -19,7 +19,7 @@ env:
 on:
   workflow_dispatch:
   schedule:
-    - cron: 0 8 * * *
+    - cron: 0 7 * * *
 
 jobs:
   check:
